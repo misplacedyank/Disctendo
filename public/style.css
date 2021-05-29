@@ -11,6 +11,9 @@ body {
 h1 {
     color: white;
 }
+h1 {
+    color: #BEC3CD;
+}
 
 button, a.btn {
     color: white !important;
