@@ -1,11 +1,11 @@
 body {
-    background: #36393f;
+    background: #0F161B;
 
     font-family: 'Roboto', Roboto;
 }
 
 .jumbotron {
-    background: #2f3136;
+    background: #1C1B29;
 }
 
 h1 {
@@ -14,7 +14,7 @@ h1 {
 
 button, a.btn {
     color: white !important;
-    background-color: #7289da !important;
+    background-color: #5865F2 !important;
     border: none !important;
     box-shadow: none !important;
 
@@ -22,11 +22,11 @@ button, a.btn {
 }
 
 button:hover, a.btn:hover {
-    background-color: #677bc4 !important;
+    background-color: #4656dd !important;
 }
 
 button:active, a.btn:active {
-    background-color: #5b6eae !important;
+    background-color: #4656dd !important;
 }
 
 label {
