@@ -38,7 +38,7 @@ exports.handler = async function (event, context) {
                 fields: [
                     {
                         name: "Submitter",
-                        value: `<@${userInfo.id}> (${userInfo.username}#${userInfo.discriminator})`
+                        value: <@${userInfo.id}> (\<@${userInfo.id}>) (${userInfo.username}#${userInfo.discriminator})`
                     },
                     {
                         name: "Why were you banned?",
@@ -74,7 +74,7 @@ exports.handler = async function (event, context) {
                     userId: userInfo.id
                 };
     
-                message.embed.description = `[Approve appeal and unban user](${unbanUrl.toString()}?token=${encodeURIComponent(createJwt(unbanInfo))})`;
+                
             }
         }
 
